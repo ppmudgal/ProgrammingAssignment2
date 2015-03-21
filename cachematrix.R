@@ -1,5 +1,4 @@
-#NOTE: function description has been provided when they are defined. 
-
+#makeCacheMatrix creates a special "matrix" object that can cache its inverse.
 #makeCacheMatrix accepts only numeric argument, hence the x=numeric() part
 makeCacheMatrix <- function(x = numeric()) {
       
